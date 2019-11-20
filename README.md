@@ -8,7 +8,38 @@ In this case, you want to predict the quality of wine. We used a dataset from UC
 
 You can obtain the data 'winedata.csv' from the GitHub repo [Wine Quality](https://github.com/mdragt/WineQuality)
 
-Open an Edge browser and go to the new [Azure Machine Learning environment](https://ml.azure.com). *Note: this environment is in preview, so glitches can appear.*
+### Create an Azure Machine Learning instance
+
+Go to [azure.microsoft.com](https://azure.microsoft.com/en-us/)
+
+Sign in and open the Azure Portal (top right)
+
+Select 'Create a resource'
+
+Type 'Machine Learning' and 'Create' button
+
+![Machine Learning in Azure Portal](docsimages/azure-portal-ml.PNG)
+
+Enter details:
+* **Workspace Name:** provide a name (ex: globalaibootcamp)
+* **Subscription:** choose your azure subscription
+* **Resource Group:** select new and provide a name (ex: globalaibootcamp)
+* **Location:** choose a data centre closest to you
+* **Workspace edition:** choose Enterprise in order to use the Automated ML UI
+
+Select **'Review + Create'**
+![Create Azure Machine Learning Service](docsimages/create-ml-service.PNG)
+
+Once complete select 'Go to resource'
+
+![Go to Resource once created](docsimages/resource-created.PNG)
+
+Then select 'Launch the new Azure Machine Learning studio'
+
+![Launch the new Azure Machine Learning studio](docsimages/ml-resource.PNG)
+
+This will take you to a new browser window: [https://ml.azure.com](https://ml.azure.com). Now you have created the Azure Machine Learning instance in the Azure Portal once you can navigate directly to [https://ml.azure.com](https://ml.azure.com) when you are using the studio.
+
 
 Go to Datasets and select Create dataset, from local file.
 
