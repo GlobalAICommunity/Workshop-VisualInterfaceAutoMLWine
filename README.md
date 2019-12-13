@@ -1,6 +1,6 @@
 # Workshop Automated ML - Predict Wine Quality
 
-In this case, you want to predict the quality of wine. We used a dataset from UCI Machine Learning repository that contained 6497 observations with physicochemical properties of red and white Portuguese wine and their quality (Cortez).
+In this case, you want to predict the quality of wine. We used a dataset from UCI Machine Learning repository that contained 6497 observations with physicochemical properties of red and white Portuguese wine and their quality (Cortez). You will use [Azure Machine Learning Automated ML service](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-automated-ml/?WT.mc_id=gaic-github-cxa).
 
 ## Steps
 
@@ -10,7 +10,7 @@ You can obtain the data 'winedata.csv' from the GitHub repo [Wine Quality](https
 
 ### Create an Azure Machine Learning instance
 
-Go to [azure.microsoft.com](https://azure.microsoft.com/en-us/)
+Go to [azure.microsoft.com](https://azure.microsoft.com/?WT.mc_id=gaic-github-cxa)
 
 Sign in and open the Azure Portal (top right)
 
@@ -38,7 +38,7 @@ Then select 'Launch the new Azure Machine Learning studio'
 
 ![Launch the new Azure Machine Learning studio](docsimages/ml-resource.PNG)
 
-This will take you to a new browser window: [https://ml.azure.com](https://ml.azure.com). Now you have created the Azure Machine Learning instance in the Azure Portal once you can navigate directly to [https://ml.azure.com](https://ml.azure.com) when you are using the studio.
+This will take you to a new browser window: [https://ml.azure.com/?WT.mc_id=gaic-github-cxa](https://ml.azure.com). Now you have created the Azure Machine Learning instance in the Azure Portal once you can navigate directly to [https://ml.azure.com/?WT.mc_id=gaic-github-cxa](https://ml.azure.com) when you are using the studio.
 
 
 Go to Datasets and select Create dataset, from local file.
@@ -125,3 +125,5 @@ When the running process is finished, you have the option to deploy the best mod
 
 ## Clean up resources
 Finally, If you don't expect to need these resources in the future and want to save cost, you can delete them by deleting the resource group you created. To do so go to the Azure Portal, select 'Resource Groups' and select the resource group for this workshop, select Delete, then confirm the name of the resource group to delete.
+
+Looking for another example to continue your learning - check out another [tutorial here](https://docs.microsoft.com/en-us/azure/machine-learning/service/tutorial-auto-train-models/?WT.mc_id=gaic-github-cxa)
