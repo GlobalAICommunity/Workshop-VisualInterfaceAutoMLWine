@@ -122,3 +122,6 @@ During the run, you get an overview of how well the models are performing:
 The running process can take quite a while (remember, we defined 1 hour as possible running time), so take a coffee and go to the next workshop.
 
 When the running process is finished, you have the option to deploy the best model.
+
+## Clean up resources
+Finally, If you don't expect to need these resources in the future and want to save cost, you can delete them by deleting the resource group you created. To do so go to the Azure Portal, select 'Resource Groups' and select the resource group for this workshop, select Delete, then confirm the name of the resource group to delete.
